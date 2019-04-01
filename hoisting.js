@@ -16,9 +16,11 @@ var crazy = function() {
   }
 }
 
-var sayMyName = function {
+var sayMyName = function() {
   // fix the code in here:
   var name = "Cricky";
+
+  sayMy();
 
   function sayMy() {
     name = "Kristin"
