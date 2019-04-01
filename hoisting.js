@@ -16,14 +16,12 @@ var crazy = function() {
   }
 }
 
-function sayMyName() {
+var sayMyName = function {
   // fix the code in here:
   var name = "Cricky";
 
-  sayMy();
-
   function sayMy() {
-    var name = "Kristin"
+    name = "Kristin"
     console.log(name);
   }
 }
